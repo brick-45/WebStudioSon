@@ -3,107 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./webstudio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
-    <header>
-         <img src="./imgs/WebStudio.webp" alt="WebStudioIcon">
-        <nav> 
-            <ul>
-                <li>
-                    <p>Студія</p>
-                </li>
-                <li>
-                    <p>Портфоліо</p>
-                </li>
-                <li>
-                    <p>Портфоліо</p>
-                </li>
-            </ul>
-        </nav>
-        <p>info@devstudio.com</p>
-        <p>+38 096 111 11 11</p>
+    <div class="container">
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container-header-container">
+            <h1 class="logo">Web<span class="logo-blue">Studio</span></h1>
+            <nav class="nav-menu">
+                <a href="#"><span>Студія</span></a>
+                <a href="#">Портфоліо</a>
+                <a href="#">Контакти</a>
+            </nav>
+            <div class="contacts">
+                <a href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button>Замовити послугу</button>
-        </section>
 
-        <section>
-            <div>
-                <dl>
-                    <dt>УВАГА ДО ДЕТАЛЕЙ</dt>
-                    <dd>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</dd>
-                </dl>
-            </div>
-            <div>
-                 <dl>
-                    <dt>ПУНКТУАЛЬНІСТЬ</dt>
-                    <dd>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</dd>
-                </dl>
-            </div>
-            <div>
-                <dl>
-                    <dt>ПЛАНУВАННЯ</dt>
-                    <dd>Так само консультація з широким активом значною мірою зумовлює.</dd>
-                </dl>
-            </div>
-            <div>
-                 <dl>
-                    <dt>СУЧАСНІ ТЕХНОЛОГІЇ</dt>
-                    <dd>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</dd>
-                </dl>
+    <main>
+        <!-- Замовити -->
+        <div class="order">
+            <h2 class="order-title">Ефективні рішення для вашого бізнесу</h2>
+            <button class="order-button">Замовити послугу</button>
+        </div>
+
+        <!-- Особливості -->
+        <section class="special">
+            <div class="container-special-container">
+                <div class="specail-object">
+                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                </div>
+                <div class="specail-object">
+                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                </div>
+                <div class="specail-object">
+                    <h3>ПЛАНУВАННЯ</h3>
+                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                </div>
+                <div class="specail-object">
+                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </div>
             </div>
         </section>  
         
         <!-- Чим ми займаємося -->
-        <section>
-            <h1>Чим ми займаємося</h1>
-            <ul>
-                <li>
-                    <img src="./imgs/ноутбук.webp" alt="ноутбук">
-                </li>
-                <li>
-                    <img src="./imgs/телефон.webp" alt="телефон">
-                </li>
-                <li>
-                    <img src="./imgs/планшет.webp" alt="планшет">
-                </li>
-            </ul>
+        <section class="work">
+            <div class="container">
+                <h2>Чим ми займаємося</h2>
+                <div class="work-gallery">
+                    <img class="list-wdwd_img" src="./imgs/laptop.webp" alt="laptop" >
+                    <img class="list-wdwd_img" src="./imgs/phone.webp" alt="phone">
+                    <img class="list-wdwd_img" src="./imgs/ipad.webp" alt="ipad">
+                </div>
+            </div>
         </section>
         <!-- Наша команда -->
-         <section>
-            <ul>
-                <li>
-                    <img src="./imgs/Ігор Дем'яненко.webp" alt="Ігор Дем'яненко" width=270px height="260px">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="./imgs/Ольга Рєпіна.webp" alt="Ольга Рєпіна" width=270px height="260px">
-                    <h3>Ольга Рєпіна</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./imgs/Микола Тарасов.webp" alt="Микола Тарасов" width=270px height="260px">
-                    <h3>Микола Тарасов</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./imgs/Михайло Єрмаков.webp" alt="Михайло Єрмаков" width=270px height="260px">
-                    <h3>Михайло Єрмаков</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-         </section>
+         <section class="ourTeam">
+             <div class="container">
+                <div class="list-ourTeam">
+                    <li class="list-ourTeam_li">
+                        <img src="./imgs/IgorDemianenko.webp" alt="IgorDemianenko" width=270px height=260px>
+                        <h3>Ігор Дем'яненко</h3>
+                        <p>Product Designer</p>
+                    </li>
+                    <li class="list-ourTeam_li">
+                        <img src="./imgs/OlgaRepina.webp" alt="OlgaRepina" width=270px height=260px>
+                        <h3>Ольга Рєпіна</h3>
+                        <p>Frontend Developer</p>
+                    </li>
+                    <li class="list-ourTeam_li">
+                        <img src="./imgs/MykolaTarasov.webp" alt="MykolaTarasov.webp" width=270px height=260px>
+                        <h3>Микола Тарасов</h3>
+                        <p>Marketing</p>
+                    </li>
+                    <li class="list-ourTeam_li">
+                        <img src="./imgs/MychailoErmakov.webp" alt="MychailoErmakov" width=270px height=260px>
+                        <h3>Михайло Єрмаков</h3>
+                        <p>UI Designer</p>
+                    </li>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <img src="./imgs/WebStudio.webp" alt="WebStudioIcon">
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <p>info@devstudio.com</p>
-        <p>+38 096 111 11 11</p>
+    <footer class="footer">
+        <div class="container">
+            <h1 class="logo">Web<span class="logo-blue">Studio</span></h1>
+            <div class="contacts-section">
+                <p>м. Київ, пр-т Лесі Українки, 26</p>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
+        </div>
     </footer>
+    </div>
 </body>
-</html>
