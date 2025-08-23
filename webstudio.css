@@ -1,0 +1,169 @@
+:root {
+    --brand-color: #2F303A;
+    --brand-color-blue: #2196F3;
+    --brand-color-lightgray: #757575;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.container-header-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 20px 0;
+    gap: 93px;
+    align-items: baseline;
+    color: black;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 50px
+}
+
+.contacts{
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    color: var(--brand-color-lightgray);
+}
+
+
+
+.order {
+    text-align: center;
+    padding: 200px 0;
+    background-color: var(--brand-color);
+    color: white;
+}
+
+
+
+.container-special-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 30px;
+}
+
+.work{
+    display: flex;
+    gap: 30px;
+}
+
+.list-ourTeam{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+
+.wdwd {
+    padding-top: 94px;
+    padding-bottom: 188px;
+}
+
+.list-ourTeam {
+    padding-top: 94px;
+    padding-bottom: 124px;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--brand-color);
+}
+
+.contacts-section{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+
+
+
+
+/* objects */
+
+.logo{
+    font-family: Raleway;
+}
+
+.order-title{
+    /* display: flex;
+    justify-content: center;
+    width: 696px; */
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.order-button{
+    background-color: #2196F3;
+    color: white;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+}
+
+.order-button{
+    box-sizing: 20px 20px 15px #16171f;
+}
+
+.logo-blue{
+    color: var(--brand-color-blue);
+}
+
+.list-ourTeam_li{
+    text-decoration: none;
+    box-shadow: 1px 15px 10px var(--brand-color-lightgray);
+}
+
+/* .ourTeam{
+    background-color: #F5F4FA;
+} */
+
+.list-wdwd_img{
+    width: 370px;
+    height: 294px;
+}
+
+span{
+    color: var(--brand-color-blue);
+}
+
+.list-ourTeam img:first-child{
+    /* display: flex; */
+    width: 270px;
+    height: 260px;
+    /* border: solid black; */
+}
+
