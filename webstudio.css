@@ -183,9 +183,6 @@ a {
     box-shadow: 1px 15px 10px var(--brand-color-lightgray);
 }
 
-/* .ourTeam{
-    background-color: #F5F4FA;
-} */
 
 .list-wdwd_img{
     width: 370px;
@@ -197,10 +194,8 @@ span{
 }
 
 .list-ourTeam img:first-child{
-    /* display: flex; */
     width: 270px;
     height: 260px;
-    /* border: solid black; */
 }
 
 .logo2{

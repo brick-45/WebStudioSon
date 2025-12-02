@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./webstudio.css">
+    <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
-    <div class="container">
-    <!-- Шапка -->
-    <header class="header">
-        <div class="container-header-container">
+    <header>
+        <div class="container">
             <h1 class="logo">Web<span class="logo-blue">Studio</span></h1>
             <nav class="nav-menu">
-                <a href="#"><span>Студія</span></a>
+                <a href="#">Студія</a>
                 <a href="#">Портфоліо</a>
                 <a href="#">Контакти</a>
             </nav>
@@ -29,15 +27,17 @@
 
     <main>
         <!-- Замовити -->
-        <div class="order">
-            <h2 class="order-title">Ефективні рішення для вашого бізнесу</h2>
-            <button class="order-button">Замовити послугу</button>
-        </div>
+        <section class="order">
+            <div class="container">
+                <h2 class="order-title">Ефективні рішення для вашого бізнесу</h2>
+                <button class="order-button">Замовити послугу</button>
+            </div>
+        </section>
 
         <!-- Особливості -->
         <section class="special">
-            <div class="container-special-container">
-                <div class="specail-object">
+            <div class="container">
+                <div class="special-object">
                     <div class="icons">
                         <svg class="icon icon-antenna-1-1">
                         <use xlink:href="#icon-antenna-1-1"></use>
@@ -47,12 +47,12 @@
                         </symbol>
                         </svg>
                     </div>
-                    <div class="specail-object-text">
+                    <div class="special-object-text">
                         <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </div>
                 </div>
-                <div class="specail-object">
+                <div class="special-object">
                     <div class="icons">
                         <svg class="icon icon-clock-1-1">
                             <use xlink:href="#icon-clock-1-1"></use>
@@ -62,12 +62,12 @@
                             </symbol>
                         </svg>
                     </div>
-                    <div class="specail-object-text">
+                    <div class="special-object-text">
                         <h3>ПУНКТУАЛЬНІСТЬ</h3>
                         <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </div>
                 </div>
-                <div class="specail-object">
+                <div class="special-object">
                     <div class="icons">
                     <svg class="icon icon-diagram-1-1">
                         <use xlink:href="#icon-diagram-1-1"></use>
@@ -77,12 +77,12 @@
                         </symbol>
                     </svg>
                     </div>
-                    <div class="specail-object-text">
+                    <div class="special-object-text">
                         <h3>ПЛАНУВАННЯ</h3>
-                        <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                        <p class="special-objectP"></p>Так само консультація з широким активом значною мірою зумовлює.</p>
                     </div>
                 </div>
-                <div class="specail-object">
+                <div class="special-object">
                     <div  class="icons">
                     <svg class="icon icon-astronaut-1-1">
                         <use xlink:href="#icon-astronaut-1-1"></use>
@@ -94,7 +94,7 @@
                         </symbol>
                     </svg>
                     </div>
-                    <div class="specail-object-text">
+                    <div class="special-object-text">
                         <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                         <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </div>
@@ -115,7 +115,7 @@
         </section>
         <!-- Наша команда -->
          <section class="ourTeam">
-             <div class="container">
+            <div class="container">
                 <div class="ourTeam-text"><h2>Наша команда</h2></div>
                 <div class="list-ourTeam">
                     <li class="list-ourTeam_li">

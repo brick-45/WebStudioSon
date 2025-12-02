@@ -1,0 +1,17 @@
+:root {
+    --brand-color: #2F303A;
+    --brand-color-blue: #2196F3;
+    --brand-color-lightgray: #757575;
+    --brand-text: #212121;
+}
+
+.container{
+    width: auto;
+    height: auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    color: #212121;
+}
