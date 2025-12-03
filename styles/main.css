@@ -76,4 +76,77 @@
     height: 120px;
 }
 
+/* block 3 */
+
+.work > .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.work-gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.title-wwd {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--brand-text);
+}
+
+/* block 4 */
+
+.ourTeam > .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #f5f4fa;
+    height: 708px;
+}
+
+.list-ourTeam-parent{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 428px;
+}
+
+.list-ourTeam_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 1px 5px 5px #afafaf;
+}
+
+.list-ourTeam_card img{
+    
+    justify-content: start;
+    align-items: start;
+}
+
+.card-subtitle{
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #757575;
+}
+
+.ourTeam-title{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--brand-text);
+}
 
