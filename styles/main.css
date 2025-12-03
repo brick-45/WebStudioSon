@@ -40,24 +40,40 @@
     margin: 94px 0px 90px 0px;
 }
 
+
+
 .special-object{
-    width: 270px;
     display: flex;
+    width: 290px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
-.icon{
-    width: 70px;
-    height: 70px;
-}
 
 .special-objectP{
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
     color: #757575;
+}
+
+.icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  justify-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
+    height: 120px;
 }
 
 
