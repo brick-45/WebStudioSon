@@ -1,0 +1,16 @@
+/* header */
+
+.nav-menu a:hover{
+    color: var(--brand-color-blue)
+}
+
+.contact-number-email a:hover{
+    color: var(--brand-color-blue);
+}
+
+.icon-contacts:hover{
+    fill: #2196F3;
+}
+
+/* main */
+

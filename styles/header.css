@@ -30,3 +30,7 @@ a {
     color: var(--brand-color-lightgray);
 }
 
+.contact-number-email{
+    display: flex;
+    gap: 10px;
+}

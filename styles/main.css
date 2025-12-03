@@ -84,6 +84,7 @@
     align-items: center;
     flex-direction: column;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .work-gallery{
@@ -150,3 +151,38 @@
     color: var(--brand-text);
 }
 
+/* block 5 */
+
+.customers > .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 184px;
+    margin: 50px 0px 100px 0px;
+    gap: 50px;
+}
+
+.customers-title{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--brand-text);
+}
+
+.customers-line{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.customer-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: solid 1px #afb1b8;
+    border-radius: 5px;
+}
