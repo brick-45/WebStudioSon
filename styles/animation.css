@@ -4,13 +4,45 @@
     color: var(--brand-color-blue)
 }
 
-.contact-number-email a:hover{
+.contact-number-email:hover a{
     color: var(--brand-color-blue);
 }
 
-.icon-contacts:hover{
+.contact-number-email:hover .icon-contacts{
     fill: #2196F3;
 }
 
 /* main */
 
+.circle:hover{
+    fill: #2196F3;
+}
+
+.socialmediaDesigner:hover .circle{
+    fill: #2196F3;
+}
+
+.socialmediaDesigner:hover g{
+    fill: #fff;
+}
+
+.socialmediaDesigner:hover .icon-body{
+    fill: #fff;
+}
+
+/* block 5 */
+
+.customer-card:hover{
+    border: solid 1px #2196F3;
+}
+
+.customer-card:hover .customer-body{
+    fill: #2196F3;
+}
+
+/* footer */
+
+.footerSocialMedia:hover .footerIconBackground{
+    fill: #2196F3;
+    fill-opacity: 1;
+}
