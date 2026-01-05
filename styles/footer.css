@@ -11,8 +11,8 @@ footer > .container{
     display: flex;
     gap: 70px;
     margin-right: 675px;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 footer a {
@@ -29,4 +29,27 @@ footer a {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.footer-form{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-form input{
+    background-color: var(--brand-color);
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    padding: 16px;
+    width: 358px;
+    border-radius: 5px;
+}
+
+.footer-form button{
+    background-color: var(--brand-color-blue);
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
 }
