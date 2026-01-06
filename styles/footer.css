@@ -9,10 +9,8 @@ footer > .container{
 
 .footer-content{
     display: flex;
-    gap: 70px;
-    margin-right: 675px;
+    gap: 112px;
     justify-content: space-between;
-    
 }
 
 footer a {
