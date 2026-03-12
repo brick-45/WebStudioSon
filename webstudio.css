@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --brand-color: #2F303A;
     --brand-color-blue: #2196F3;
     --brand-color-lightgray: #757575;
@@ -142,14 +142,12 @@ footer a{
 
 /* objects */
 
-.logo{
+/* .logo{
     font-family: Raleway;
 }
 
 .order-title{
-    /* display: flex;
-    justify-content: center;
-    width: 696px; */
+
     text-align: center;
     font-family: Roboto;
     font-size: 44px;
@@ -218,4 +216,4 @@ span{
     align-items: center;
     background-color: #F5F4FA;
     height: 120px;
-}
+}  */
